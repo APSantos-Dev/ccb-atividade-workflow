@@ -1,3 +1,4 @@
 # lista de arquivos/pastas que não devem ser monitorados
 
+dist
 node_modules
