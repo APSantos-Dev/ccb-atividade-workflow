@@ -1,0 +1,38 @@
+{
+  "name": "ccb-atividade-workflow",
+  "description": "Curso Certificação Bootstrap : Módulo 4 - Workflow (Atividade prática)",
+  "version": "1.0.1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APSantos-Dev/ccb-atividade-workflow.git"
+  },
+  "keywords": [
+    "curso",
+    "certificação",
+    "bootstrap-4",
+    "atividade",
+    "prática",
+    "módulo",
+    "workflow"
+  ],
+  "author": "APSantos-Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APSantos-Dev/ccb-atividade-workflow/issues"
+  },
+  "homepage": "https://github.com/APSantos-Dev/ccb-atividade-workflow#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
