@@ -1,0 +1,3 @@
+# lista de arquivos/pastas que não devem ser monitorados
+
+node_modules
