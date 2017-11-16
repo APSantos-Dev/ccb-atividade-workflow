@@ -42,12 +42,12 @@ const message = {
 }
 
 // clean
-gulp.task( 'clean', function () {
+gulp.task( 'cleanDistAll', function () {
   del( path.dist.root )
 })
 
 // compress all scss files
-gulp.task( 'compressScssAll', [ 'clean' ], function () {
+gulp.task( 'compressScssAll', [ 'cleanDistAll' ], function () {
   return gulp.src( path.source.allFiles )
     .pipe( sass({ outputStyle: 'compressed' }))
     .pipe( rename({ suffix: '.min' }) )
